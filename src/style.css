@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+}
+
+#navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  height: 70px;
+  padding: 0 3%;
+  gap: 50px;
+  background-color: #fff;
+}
+
+.navitem {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+}
+
+footer {
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px;
+}
