@@ -16,7 +16,6 @@ nav {
   width: 100%;
   box-sizing: border-box;
   height: 60px;
-  box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -68,13 +67,13 @@ section {
 
 article {
   border: 1px solid black;
-  border-radius: 12px; 
+  border-radius: 12px;
   width: 180px;
   height: 270px;
 }
 
 .card-picture {
-  background-color: black;
+  background-color: rgb(99, 96, 96);
   height: 150px;
   border-radius: 12px;
 }
@@ -103,7 +102,6 @@ article {
   background-repeat: no-repeat;
   background-size: cover;
   border: none;
-  background-color: none;
 }
 
 .btn {
