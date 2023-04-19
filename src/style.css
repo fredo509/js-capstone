@@ -10,14 +10,15 @@ header {
   height: 70px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 nav {
-  width: 100%;
+  width: 80%;
   box-sizing: border-box;
   height: 60px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 0 50px;
 }
@@ -34,7 +35,7 @@ nav {
 
 #navbar {
   display: flex;
-  width: 60%;
+  width: 39%;
 }
 
 .navitem {
@@ -54,36 +55,54 @@ main {
   height: 80vh;
   display: flex;
   justify-content: center;
-  padding-top: 20px;
+  padding-top: 5px;
 }
 
-section {
-  width: 80%;
-  padding: 5px;
+#section {
+  width: 90%;
   display: grid;
   grid-template-columns: auto auto auto;
   margin: 0 auto;
+  justify-content: center;
 }
 
 article {
   border: 1px solid black;
   border-radius: 12px;
-  width: 180px;
-  height: 270px;
+  width: 250px;
+  height: 230px;
+  margin: 5px;
+  font-size: 0.8em;
+  overflow: hidden;
 }
 
 .card-picture {
-  background-color: rgb(99, 96, 96);
-  height: 150px;
+  height: 120px;
   border-radius: 12px;
+  display: flex;
+  padding-left: 15px;
+}
+
+.card-picture img {
+  box-sizing: border-box;
+  display: flex;
+  height: 100%;
+  width: auto;
 }
 
 .card-title {
   margin-left: 3px;
 }
 
+.name {
+  color: rgb(223, 0, 0);
+  font-size: medium;
+  font-weight: 300;
+}
+
 .my-like {
   display: flex;
+  flex-direction: column;
   padding-top: 5px;
   box-sizing: border-box;
   justify-content: space-between;
@@ -92,25 +111,31 @@ article {
 .likePlus {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-end;
+  padding-right: 3px;
+  height: 70px;
+  background-color: rgb(255, 250, 250);
+  color: rgb(255, 0, 0);
 }
 
-#like {
+.like {
   width: 25px;
   height: 25px;
-  background-image: url("../src/images/dist/like.png");
+  background-image: url("./images/dist/like.png");
   background-repeat: no-repeat;
   background-size: cover;
   border: none;
+  background-color: white;
 }
 
 .btn {
   padding: 5px;
   display: flex;
-  justify-content: center;
+  margin-top: -59px;
+  align-self: flex-start;
 }
 
-#btnReservation {
+.btnReservation {
   margin-left: 5px;
 }
 
