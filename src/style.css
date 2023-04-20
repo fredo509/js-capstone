@@ -121,29 +121,30 @@ footer {
   text-align: center;
 }
 
+.button:hover {
+  background: #333;
+}
+
 .modal {
-  display: block;
+  display: none;
   position: fixed;
   z-index: 1;
   left: 0;
   top: 0;
   height: 80%;
-  width: 80%;
-  overflow: auto;
-  background-color: rgb(188, 238, 238);
-  margin: 5%;
+  width: 90%;
+  margin: 1%;
 }
 
 .modal-content {
-  background-color: antiquewhite;
-  margin: 20% auto;
+  background-color: #76a5b9;
+  margin: 10% auto;
   padding: 20px;
   width: 70%;
-  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
 }
 
 .closeBtn {
-  color: #0f0d0d;
+  color: #ccc;
   float: right;
   font-size: 40px;
   margin-right: 15px;
