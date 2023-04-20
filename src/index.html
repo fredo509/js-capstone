@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Javascript Capstone Project</title>
     <link rel="stylesheet" href="style.css">
+    <script src="popup.js"></script>
   </head>
   <body>
     <header>
@@ -37,17 +38,40 @@
               </div>
             </div>
           <div class="btn">
-            <button id="btnComment" type="button">Comments</button>
+            <button id="btnComment" class="button" type="button">Comments</button>
             <button id="btnReservation" type="button">Reservation</button>
           </div>
         </article>
       </section>
       </div>
     </main>
+       <!-- Modal content -->
+  <div id="simpleModal" class="modal">
+    <div class="modal_content">
+        <span class="closeBtn">&times;</span>
+        <div class="row modal_header">
+          <div class="col-md">
+            <img width="100%" src="" alt="">
+        </div>
+      </div>
+        <div id="form">
+        <form class="form mt-3" action="/" method="post" id="submit" >
+          <div class="mb-2">
+            <input type="text" class="form-control" id="name" placeholder="Add your name">
+          </div>
+          <div class="mb-2">
+            <textarea class="form-control mt-2 " id="text" placeholder="insights"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" id="myButton">comment</button>
+        </form>
+      </div>
+    </div>
+
+</div>
     <footer>
       <div>
         <p>Copyright &copy; 2023 by Elijah & Fredo.</p>
       </div>
     </footer>
   </body>
-</html>
+</html> 
